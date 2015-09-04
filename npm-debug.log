@@ -1,0 +1,314 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'socket' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of /Users/Jie/Documents/CDojo/JS/chatroom/package.json
+5 warn package.json chatroom@ No repository field.
+6 warn package.json chatroom@ No README data
+7 warn package.json chatroom@ No license field.
+8 verbose installManyTop reading scoped package data from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/body-parser/package.json
+9 verbose installManyTop reading scoped package data from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/ejs/package.json
+10 verbose installManyTop reading scoped package data from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/express/package.json
+11 verbose installManyTop reading scoped package data from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket.io/package.json
+12 info package.json ejs@1.0.0 No license field.
+13 info package.json socket.io@1.3.5 No license field.
+14 verbose readDependencies loading dependencies from /Users/Jie/Documents/CDojo/JS/chatroom/package.json
+15 silly cache add args [ 'socket', null ]
+16 verbose cache add spec socket
+17 silly cache add parsed spec { raw: 'socket',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'socket',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 silly addNamed socket@*
+19 verbose addNamed "*" is a valid semver range for socket
+20 silly addNameRange { name: 'socket', range: '*', hasData: false }
+21 silly mapToRegistry name socket
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/socket
+25 verbose addNameRange registry:https://registry.npmjs.org/socket not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/socket
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 10:34:53 AM
+29 verbose request id 794c4405f45da983
+30 http request GET https://registry.npmjs.org/socket
+31 http 200 https://registry.npmjs.org/socket
+32 silly get cb [ 200,
+32 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly get     etag: '"368QAD6FWDSRRSF0K2VF00IA6"',
+32 silly get     'content-type': 'application/json',
+32 silly get     'cache-control': 'max-age=60',
+32 silly get     'content-length': '1522',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Tue, 14 Jul 2015 17:34:55 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '0',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-lax1421-LAX',
+32 silly get     'x-cache': 'MISS',
+32 silly get     'x-cache-hits': '0',
+32 silly get     'x-timer': 'S1436895295.430869,VS0,VE47',
+32 silly get     vary: 'Accept' } ]
+33 verbose get saving socket to /Users/Jie/.npm/registry.npmjs.org/socket/.cache.json
+34 silly addNameRange number 2 { name: 'socket', range: '*', hasData: true }
+35 silly addNameRange versions [ 'socket', [ '0.0.1' ] ]
+36 silly addNamed socket@0.0.1
+37 verbose addNamed "0.0.1" is a plain semver version for socket
+38 silly mapToRegistry name socket
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/socket
+42 verbose addRemoteTarball https://registry.npmjs.org/socket/-/socket-0.0.1.tgz not in flight; adding
+43 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz',
+43 verbose addRemoteTarball   '29ac6549f15a65b19f3444a4178d537a8c161a8b' ]
+44 info retry fetch attempt 1 at 10:34:56 AM
+45 info attempt registry request try #1 at 10:34:56 AM
+46 http fetch GET https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+47 http fetch 200 https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+48 silly fetchAndShaCheck shasum 29ac6549f15a65b19f3444a4178d537a8c161a8b
+49 verbose addTmpTarball /var/folders/dc/hzhlyz895xbg8zq4ddqtlp800000gn/T/npm-1891-b08d420a/registry.npmjs.org/socket/-/socket-0.0.1.tgz not in flight; adding
+50 verbose addTmpTarball already have metadata; skipping unpack for socket@0.0.1
+51 silly cache afterAdd socket@0.0.1
+52 verbose afterAdd /Users/Jie/.npm/socket/0.0.1/package/package.json not in flight; writing
+53 verbose afterAdd /Users/Jie/.npm/socket/0.0.1/package/package.json written
+54 silly install resolved [ { name: 'socket',
+54 silly install resolved     description: 'Socket is a connect clone for simple socket based applications',
+54 silly install resolved     version: '0.0.1',
+54 silly install resolved     author:
+54 silly install resolved      { name: 'Richard S Allinson',
+54 silly install resolved        email: 'rsa@mounitainmansoftware.com' },
+54 silly install resolved     main: 'index',
+54 silly install resolved     engines: { node: '>= 0.6.0 < 0.7.0' },
+54 silly install resolved     dependencies: { microtime: '=0.2.0' },
+54 silly install resolved     repository: { type: 'git', url: 'git://github.com/capecodehq/socket.git' },
+54 silly install resolved     license: 'MIT',
+54 silly install resolved     _npmUser:
+54 silly install resolved      { name: 'mountainmansoftware',
+54 silly install resolved        email: 'npm@mountainmansoftware.com' },
+54 silly install resolved     _id: 'socket@0.0.1',
+54 silly install resolved     devDependencies: {},
+54 silly install resolved     optionalDependencies: {},
+54 silly install resolved     _engineSupported: true,
+54 silly install resolved     _npmVersion: '1.1.0-3',
+54 silly install resolved     _nodeVersion: 'v0.6.9',
+54 silly install resolved     _defaultsLoaded: true,
+54 silly install resolved     dist:
+54 silly install resolved      { shasum: '29ac6549f15a65b19f3444a4178d537a8c161a8b',
+54 silly install resolved        tarball: 'http://registry.npmjs.org/socket/-/socket-0.0.1.tgz' },
+54 silly install resolved     maintainers: [ [Object] ],
+54 silly install resolved     directories: {},
+54 silly install resolved     _shasum: '29ac6549f15a65b19f3444a4178d537a8c161a8b',
+54 silly install resolved     _resolved: 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz',
+54 silly install resolved     _from: 'socket@*' } ]
+55 info install socket@0.0.1 into /Users/Jie/Documents/CDojo/JS/chatroom
+56 info installOne socket@0.0.1
+57 verbose installOne of socket to /Users/Jie/Documents/CDojo/JS/chatroom not in flight; installing
+58 verbose lock using /Users/Jie/.npm/_locks/socket-a30d8a093d6d8d26.lock for /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+59 warn engine socket@0.0.1: wanted: {"node":">= 0.6.0 < 0.7.0"} (current: {"node":"0.12.6","npm":"2.11.2"})
+60 silly install write writing socket 0.0.1 to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+61 verbose unbuild node_modules/socket
+62 silly gentlyRm /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket is being purged from base /Users/Jie/Documents/CDojo/JS/chatroom
+63 verbose gentlyRm don't care about contents; nuking /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+64 verbose tar unpack /Users/Jie/.npm/socket/0.0.1/package.tgz
+65 verbose tar unpacking to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+66 silly gentlyRm /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket is being purged
+67 verbose gentlyRm don't care about contents; nuking /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry examples/
+70 silly gunzTarPerm extractEntry examples/echo-server.js
+71 silly gunzTarPerm extractEntry examples/simple-test.js
+72 silly gunzTarPerm extractEntry examples/simple-time-server.js
+73 silly gunzTarPerm extractEntry index.js
+74 silly gunzTarPerm extractEntry lib/
+75 silly gunzTarPerm extractEntry lib/index.js
+76 silly gunzTarPerm extractEntry lib/middleware/
+77 silly gunzTarPerm extractEntry lib/middleware/echo.js
+78 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+79 silly gunzTarPerm extractEntry lib/middleware/json.js
+80 silly gunzTarPerm extractEntry lib/middleware/profiler.js
+81 silly gunzTarPerm extractEntry lib/proto.js
+82 silly gunzTarPerm extractEntry lib/utils.js
+83 silly gunzTarPerm extractEntry nbproject/
+84 silly gunzTarPerm extractEntry nbproject/private/
+85 silly gunzTarPerm extractEntry nbproject/private/private.properties
+86 silly gunzTarPerm extractEntry nbproject/project.properties
+87 silly gunzTarPerm extractEntry nbproject/project.xml
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm extractEntry scripts/
+90 silly gunzTarPerm extractEntry scripts/lint
+91 verbose write writing to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/package.json
+92 info preinstall socket@0.0.1
+93 verbose readDependencies loading dependencies from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/package.json
+94 silly prepareForInstallMany adding microtime@=0.2.0 from socket dependencies
+95 verbose readDependencies loading dependencies from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/package.json
+96 silly cache add args [ 'microtime@=0.2.0', null ]
+97 verbose cache add spec microtime@=0.2.0
+98 silly cache add parsed spec { raw: 'microtime@=0.2.0',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'microtime',
+98 silly cache add   rawSpec: '=0.2.0',
+98 silly cache add   spec: '0.2.0',
+98 silly cache add   type: 'version' }
+99 silly addNamed microtime@0.2.0
+100 verbose addNamed "0.2.0" is a plain semver version for microtime
+101 silly mapToRegistry name microtime
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/microtime
+105 verbose addNameVersion registry:https://registry.npmjs.org/microtime not in flight; fetching
+106 verbose request uri https://registry.npmjs.org/microtime
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 10:34:59 AM
+109 http request GET https://registry.npmjs.org/microtime
+110 http 200 https://registry.npmjs.org/microtime
+111 silly get cb [ 200,
+111 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+111 silly get     etag: '"4CD6EJ61HIWPQN4CVK763AZMK"',
+111 silly get     'content-type': 'application/json',
+111 silly get     'cache-control': 'max-age=60',
+111 silly get     'content-length': '23836',
+111 silly get     'accept-ranges': 'bytes',
+111 silly get     date: 'Tue, 14 Jul 2015 17:35:01 GMT',
+111 silly get     via: '1.1 varnish',
+111 silly get     age: '0',
+111 silly get     connection: 'keep-alive',
+111 silly get     'x-served-by': 'cache-lax1430-LAX',
+111 silly get     'x-cache': 'HIT',
+111 silly get     'x-cache-hits': '1',
+111 silly get     'x-timer': 'S1436895301.868209,VS0,VE85',
+111 silly get     vary: 'Accept' } ]
+112 verbose get saving microtime to /Users/Jie/.npm/registry.npmjs.org/microtime/.cache.json
+113 silly mapToRegistry name microtime
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/microtime
+117 verbose addRemoteTarball https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz not in flight; adding
+118 verbose addRemoteTarball [ 'https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz',
+118 verbose addRemoteTarball   '45ee5cb061f9948a3ade221e620d5117a8a2bdb4' ]
+119 info retry fetch attempt 1 at 10:35:03 AM
+120 info attempt registry request try #1 at 10:35:03 AM
+121 http fetch GET https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+122 http fetch 200 https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+123 silly fetchAndShaCheck shasum 45ee5cb061f9948a3ade221e620d5117a8a2bdb4
+124 verbose addTmpTarball /var/folders/dc/hzhlyz895xbg8zq4ddqtlp800000gn/T/npm-1891-b08d420a/registry.npmjs.org/microtime/-/microtime-0.2.0.tgz not in flight; adding
+125 verbose addTmpTarball already have metadata; skipping unpack for microtime@0.2.0
+126 silly cache afterAdd microtime@0.2.0
+127 verbose afterAdd /Users/Jie/.npm/microtime/0.2.0/package/package.json not in flight; writing
+128 verbose afterAdd /Users/Jie/.npm/microtime/0.2.0/package/package.json written
+129 silly install resolved [ { name: 'microtime',
+129 silly install resolved     version: '0.2.0',
+129 silly install resolved     description: 'Get the current time in microseconds',
+129 silly install resolved     author:
+129 silly install resolved      { name: 'Wade Simmons',
+129 silly install resolved        email: 'wade@wades.im',
+129 silly install resolved        url: 'http://wades.im/mons' },
+129 silly install resolved     homepage: 'https://github.com/wadey/node-microtime',
+129 silly install resolved     repository:
+129 silly install resolved      { type: 'git',
+129 silly install resolved        url: 'git://github.com/wadey/node-microtime.git' },
+129 silly install resolved     main: './index',
+129 silly install resolved     engines: { node: '>= 0.2.0' },
+129 silly install resolved     scripts: { install: 'node-waf configure build', test: 'node test.js' },
+129 silly install resolved     _npmUser: { name: 'wadey', email: 'wade@wades.im' },
+129 silly install resolved     _id: 'microtime@0.2.0',
+129 silly install resolved     dependencies: {},
+129 silly install resolved     devDependencies: {},
+129 silly install resolved     _engineSupported: true,
+129 silly install resolved     _npmVersion: '1.0.103',
+129 silly install resolved     _nodeVersion: 'v0.4.11',
+129 silly install resolved     _defaultsLoaded: true,
+129 silly install resolved     dist:
+129 silly install resolved      { shasum: '45ee5cb061f9948a3ade221e620d5117a8a2bdb4',
+129 silly install resolved        tarball: 'http://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz' },
+129 silly install resolved     maintainers: [ [Object] ],
+129 silly install resolved     directories: {},
+129 silly install resolved     _shasum: '45ee5cb061f9948a3ade221e620d5117a8a2bdb4',
+129 silly install resolved     _resolved: 'https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz',
+129 silly install resolved     _from: 'microtime@0.2.0' } ]
+130 info install microtime@0.2.0 into /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+131 info installOne microtime@0.2.0
+132 verbose installOne of microtime to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket not in flight; installing
+133 verbose lock using /Users/Jie/.npm/_locks/microtime-1672fa50c13376b6.lock for /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+134 silly install write writing microtime 0.2.0 to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+135 verbose unbuild node_modules/socket/node_modules/microtime
+136 silly gentlyRm /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime is being purged from base /Users/Jie/Documents/CDojo/JS/chatroom
+137 verbose gentlyRm don't care about contents; nuking /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+138 verbose tar unpack /Users/Jie/.npm/microtime/0.2.0/package.tgz
+139 verbose tar unpacking to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+140 silly gentlyRm /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime is being purged
+141 verbose gentlyRm don't care about contents; nuking /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+142 silly gunzTarPerm modes [ '755', '644' ]
+143 silly gunzTarPerm extractEntry index.js
+144 silly gunzTarPerm extractEntry LICENSE
+145 silly gunzTarPerm extractEntry package.json
+146 silly gunzTarPerm extractEntry README.md
+147 silly gunzTarPerm extractEntry test.js
+148 silly gunzTarPerm extractEntry wscript
+149 silly gunzTarPerm extractEntry src/microtime.cc
+150 verbose write writing to /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime/package.json
+151 info preinstall microtime@0.2.0
+152 verbose readDependencies loading dependencies from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime/package.json
+153 verbose readDependencies loading dependencies from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime/package.json
+154 silly install resolved []
+155 verbose about to build /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+156 info build /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+157 info linkStuff microtime@0.2.0
+158 silly linkStuff microtime@0.2.0 has /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules as its parent node_modules
+159 verbose linkBins microtime@0.2.0
+160 verbose linkMans microtime@0.2.0
+161 verbose rebuildBundles microtime@0.2.0
+162 info install microtime@0.2.0
+163 verbose unsafe-perm in lifecycle true
+164 info microtime@0.2.0 Failed to exec install script
+165 verbose unlock done using /Users/Jie/.npm/_locks/microtime-1672fa50c13376b6.lock for /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+166 verbose about to build /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+167 verbose unlock done using /Users/Jie/.npm/_locks/socket-a30d8a093d6d8d26.lock for /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+168 verbose stack Error: microtime@0.2.0 install: `node-waf configure build`
+168 verbose stack spawn ENOENT
+168 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+168 verbose stack     at ChildProcess.emit (events.js:110:17)
+168 verbose stack     at maybeClose (child_process.js:1015:16)
+168 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+169 verbose pkgid microtime@0.2.0
+170 verbose cwd /Users/Jie/Documents/CDojo/JS/chatroom
+171 error Darwin 14.4.0
+172 error argv "node" "/usr/local/bin/npm" "install" "socket"
+173 error node v0.12.6
+174 error npm  v2.11.2
+175 error file sh
+176 error code ELIFECYCLE
+177 error errno ENOENT
+178 error syscall spawn
+179 error microtime@0.2.0 install: `node-waf configure build`
+179 error spawn ENOENT
+180 error Failed at the microtime@0.2.0 install script 'node-waf configure build'.
+180 error This is most likely a problem with the microtime package,
+180 error not with npm itself.
+180 error Tell the author that this fails on your system:
+180 error     node-waf configure build
+180 error You can get their info via:
+180 error     npm owner ls microtime
+180 error There is likely additional logging output above.
+181 verbose exit [ 1, true ]
+182 verbose unbuild node_modules/socket/node_modules/microtime
+183 info preuninstall microtime@0.2.0
+184 info uninstall microtime@0.2.0
+185 verbose unbuild rmStuff microtime@0.2.0 from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules
+186 verbose unbuild rmStuff in /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules
+187 info postuninstall microtime@0.2.0
+188 silly gentlyRm /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime is being purged from base /Users/Jie/Documents/CDojo/JS/chatroom
+189 verbose gentlyRm don't care about contents; nuking /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+190 silly vacuum-fs purging /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules/microtime
+191 silly vacuum-fs removing /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket/node_modules
+192 silly vacuum-fs quitting because other entries in /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+193 verbose unbuild node_modules/socket
+194 info preuninstall socket@0.0.1
+195 info uninstall socket@0.0.1
+196 verbose unbuild rmStuff socket@0.0.1 from /Users/Jie/Documents/CDojo/JS/chatroom/node_modules
+197 info postuninstall socket@0.0.1
+198 silly gentlyRm /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket is being purged from base /Users/Jie/Documents/CDojo/JS/chatroom
+199 verbose gentlyRm don't care about contents; nuking /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+200 silly vacuum-fs purging /Users/Jie/Documents/CDojo/JS/chatroom/node_modules/socket
+201 silly vacuum-fs quitting because other entries in /Users/Jie/Documents/CDojo/JS/chatroom/node_modules
